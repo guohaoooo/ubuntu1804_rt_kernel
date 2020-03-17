@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Tue, 17 Mar 2020 18:54:30 +0800
+Source: linux-4.14.134-saimo-debug
+Binary: linux-image-4.14.134-saimo-debug linux-headers-4.14.134-saimo-debug linux-libc-dev
+Architecture: source amd64
+Version: 4.14.134-saimo-debug-1
+Distribution: bionic
+Urgency: low
+Maintainer: Anonymous <root@ubuntu>
+Changed-By: Anonymous <root@ubuntu>
+Description:
+ linux-headers-4.14.134-saimo-debug - Linux kernel headers for 4.14.134-saimo-debug on
+ linux-image-4.14.134-saimo-debug - Linux kernel, version 4.14.134-saimo-debug
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.14.134-saimo-debug (4.14.134-saimo-debug-1) bionic; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 22d78f5b4caa5ecd1b4d0b35702b2bd7e7359b72 1225 linux-4.14.134-saimo-debug_4.14.134-saimo-debug-1.dsc
+ 97ff809ff2fe3037e242514e121d5c6a6a64dc7f 164141267 linux-4.14.134-saimo-debug_4.14.134-saimo-debug.orig.tar.gz
+ 81d5593f0a8822861e13b7c8f2e210e4d10b12e0 1209 linux-4.14.134-saimo-debug_4.14.134-saimo-debug-1.debian.tar.gz
+ f1b9dd5d1a2d3d77a7b813de02e38c497fc35431 11244324 linux-headers-4.14.134-saimo-debug_4.14.134-saimo-debug-1_amd64.deb
+ aaa20b0868d8a4f3f7d8002da8ce5b419a7e691c 51301928 linux-image-4.14.134-saimo-debug_4.14.134-saimo-debug-1_amd64.deb
+ 96b86f8e1663a90aa0f7f8dab789d89c639165f1 958300 linux-libc-dev_4.14.134-saimo-debug-1_amd64.deb
+Checksums-Sha256:
+ 18bd9baf9ace987e327591ae96697dc7d8ca92be259b5cbac23cacdb2eaf6184 1225 linux-4.14.134-saimo-debug_4.14.134-saimo-debug-1.dsc
+ 138f90ffd8213b620979b6a5b7264c10104d99396bc8dadddf330a19efe8497f 164141267 linux-4.14.134-saimo-debug_4.14.134-saimo-debug.orig.tar.gz
+ 087bfcdd360587964de533502883118135dc122558e7b242a4073e477a0e8361 1209 linux-4.14.134-saimo-debug_4.14.134-saimo-debug-1.debian.tar.gz
+ 439db892712d941d8163210aed86502912a56b6bb4043d2b5d1f7c18d93810a9 11244324 linux-headers-4.14.134-saimo-debug_4.14.134-saimo-debug-1_amd64.deb
+ a8ac02cd3470c949145e2e208664e5ac4a35d7607eea8ca33c27b65bebe3cd96 51301928 linux-image-4.14.134-saimo-debug_4.14.134-saimo-debug-1_amd64.deb
+ 94a313ce3a46179933f85fafb41a2fc37f3e5388ff5abe8b620f1d4a49140bf1 958300 linux-libc-dev_4.14.134-saimo-debug-1_amd64.deb
+Files:
+ 4ec5e954b4b105b7820bb9b25a01cf2b 1225 kernel optional linux-4.14.134-saimo-debug_4.14.134-saimo-debug-1.dsc
+ 26b91ba3b9d9cab8927378842e0f0acf 164141267 kernel optional linux-4.14.134-saimo-debug_4.14.134-saimo-debug.orig.tar.gz
+ 33cc35daf5032ef59bde6e7b8eeeac27 1209 kernel optional linux-4.14.134-saimo-debug_4.14.134-saimo-debug-1.debian.tar.gz
+ 450e1a9ca1c26bbdb2b26c8510746468 11244324 kernel optional linux-headers-4.14.134-saimo-debug_4.14.134-saimo-debug-1_amd64.deb
+ 07433ea9df0c0f12b98ea093ca4056af 51301928 kernel optional linux-image-4.14.134-saimo-debug_4.14.134-saimo-debug-1_amd64.deb
+ 9575fbd2a55764b1a039d730abfe2f85 958300 devel optional linux-libc-dev_4.14.134-saimo-debug-1_amd64.deb

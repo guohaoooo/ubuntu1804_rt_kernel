@@ -122,7 +122,7 @@ patch_link() {
                 if test x$forcelink = x1 -o \
 		   ! $xenomai_root/$target_dir/$f -ef $linux_tree/$link_dir/$f;
 		then
-                    ln -sf $xenomai_root/$target_dir/$f $linux_tree/$link_dir/$f
+                    cp $xenomai_root/$target_dir/$f $linux_tree/$link_dir/$f
                 fi
             else
                 if test `check_filter $link_dir/$f` = "ok"; then

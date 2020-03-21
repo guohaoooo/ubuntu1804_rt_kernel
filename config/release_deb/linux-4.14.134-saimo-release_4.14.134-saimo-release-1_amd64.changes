@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sat, 21 Mar 2020 18:12:53 +0800
+Source: linux-4.14.134-saimo-release
+Binary: linux-image-4.14.134-saimo-release linux-headers-4.14.134-saimo-release linux-libc-dev
+Architecture: source amd64
+Version: 4.14.134-saimo-release-1
+Distribution: bionic
+Urgency: low
+Maintainer: Anonymous <root@ubuntu>
+Changed-By: Anonymous <root@ubuntu>
+Description:
+ linux-headers-4.14.134-saimo-release - Linux kernel headers for 4.14.134-saimo-release on
+ linux-image-4.14.134-saimo-release - Linux kernel, version 4.14.134-saimo-release
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.14.134-saimo-release (4.14.134-saimo-release-1) bionic; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 34eb92dbe2eeb877e579a21555825783e429b083 1261 linux-4.14.134-saimo-release_4.14.134-saimo-release-1.dsc
+ c2cc921808989c065a2eb3c42fa3f342d634a2ff 163891226 linux-4.14.134-saimo-release_4.14.134-saimo-release.orig.tar.gz
+ 99681cc2aa2a19da5e6dd342789743bc49b43bce 1213 linux-4.14.134-saimo-release_4.14.134-saimo-release-1.debian.tar.gz
+ 26cbafe8adc2a993465b7c9e5b27ef0c046280cb 11088836 linux-headers-4.14.134-saimo-release_4.14.134-saimo-release-1_amd64.deb
+ 41ee52fab3aa505d2fd891b8994fefe3d993e23c 51184484 linux-image-4.14.134-saimo-release_4.14.134-saimo-release-1_amd64.deb
+ 147c4bfb6e8c228296e05d9222afe91829f3410c 958940 linux-libc-dev_4.14.134-saimo-release-1_amd64.deb
+Checksums-Sha256:
+ a43279fbfdf40273429542071d22e92b61a2c2b71c9fdc884c62a7bc42834f0d 1261 linux-4.14.134-saimo-release_4.14.134-saimo-release-1.dsc
+ f129923a136a323b3b69c26490f7a0aff5f9032bb7c0967c90d89d4afe2f5cdc 163891226 linux-4.14.134-saimo-release_4.14.134-saimo-release.orig.tar.gz
+ 1a084a0be959613b160652711198ff23ca87337b708550723afe9aaa7f261359 1213 linux-4.14.134-saimo-release_4.14.134-saimo-release-1.debian.tar.gz
+ 360788330bb36f9e694cd9b6c0d84afb2d3448e85d5c62259ba9686206bc013c 11088836 linux-headers-4.14.134-saimo-release_4.14.134-saimo-release-1_amd64.deb
+ ae333afe9eb9af074b9b26236d39b3331e9a072ab4b46092b7f45741f89058bb 51184484 linux-image-4.14.134-saimo-release_4.14.134-saimo-release-1_amd64.deb
+ 9902cc675a27a597e741490cc6ff75c0f0ac04bcc1d2aac55aac9bb847d80e71 958940 linux-libc-dev_4.14.134-saimo-release-1_amd64.deb
+Files:
+ 5c09bd2768992eea8f32fdd62d79faae 1261 kernel optional linux-4.14.134-saimo-release_4.14.134-saimo-release-1.dsc
+ ee6b9b329b493f208b01438062f7da90 163891226 kernel optional linux-4.14.134-saimo-release_4.14.134-saimo-release.orig.tar.gz
+ d612e5e8dc5feeac37c528c9b7120318 1213 kernel optional linux-4.14.134-saimo-release_4.14.134-saimo-release-1.debian.tar.gz
+ 4c608efad6901f587c768a6ae7de266a 11088836 kernel optional linux-headers-4.14.134-saimo-release_4.14.134-saimo-release-1_amd64.deb
+ 13fba6425a40ed3979616bb79500f71e 51184484 kernel optional linux-image-4.14.134-saimo-release_4.14.134-saimo-release-1_amd64.deb
+ 5650fe78f93fecf05e7e0dbb2474698a 958940 devel optional linux-libc-dev_4.14.134-saimo-release-1_amd64.deb
